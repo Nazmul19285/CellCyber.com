@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CellCyber.com</title>
+    <!-- tailwind link -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- fontawesome link -->
+    <script src="https://kit.fontawesome.com/3ff00f3c9b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- heading -->
+    <a href="" class=""><h1 class="text-4xl font-bold text-center text-zinc-600 mt-4">CellCyber.com</h1></a>
+    <p class="text-xl text-center text-zinc-600">All info you need about Mobile</p>
+
+    <!-- search bar -->
+    <div class="grid justify-items-center mx-4">
+        <div class="w-full lg:w-1/2 mt-4 border border-slate-300 grid grid-cols-12">
+            <div class="relative block col-span-11">
+                <input id="search-key" class="block bg-white w-full rounded-md p-2 shadow-sm" placeholder="Search..." type="input">
+            </div>
+            <button class="col-span-1 text-center bg-zinc-300 p-2 hover:bg-blue-300" onclick="loadMobile()">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+        </div>
+    </div>
+
+    <!-- search result -->
+    <div id="search-result" class="grid lg:grid-cols-3 gap-4 mx-4 mt-8 text-center">
+        
+    </div>
+    <div>
+        <button class="mt-4 bg-zinc-300 px-6 py-2 mx-4 rounded-md hover:bg-blue-300" onclick="loadAllMobile()">
+            See all
+        </button>
+    </div>
+
+    <!-- specification -->
+    <div id="specification">
+        
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
